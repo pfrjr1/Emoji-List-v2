@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Emoji List v2
 //
-//  Created by Peter Rooney on 4/21/17.
+//  Created by Peter Rooney on 4/21/17..
 //  Copyright © 2017 Peter Rooney. All rights reserved.
 //
 
