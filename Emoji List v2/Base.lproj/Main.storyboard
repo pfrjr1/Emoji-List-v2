@@ -37,7 +37,7 @@
                     <navigationItem key="navigationItem" id="R0I-cZ-tRv"/>
                     <connections>
                         <outlet property="dacooltableview" destination="5s4-bI-CbV" id="CxI-O7-Tyc"/>
-                        <segue destination="xZJ-hw-lJa" kind="push" identifier="moveSegue" id="5Ub-PT-umg"/>
+                        <segue destination="xZJ-hw-lJa" kind="show" identifier="moveSegue" id="5Ub-PT-umg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -91,7 +91,6 @@
         <!--Navigation Controller-->
         <scene sceneID="nHc-DH-k3K">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PsA-Jv-RGN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BDb-In-7vh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8Hb-8D-rHl">
@@ -107,6 +106,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="b78-9a-O44"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PsA-Jv-RGN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1721" y="46"/>
         </scene>
