@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5s4-bI-CbV">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
@@ -37,7 +37,7 @@
                     <navigationItem key="navigationItem" id="R0I-cZ-tRv"/>
                     <connections>
                         <outlet property="dacooltableview" destination="5s4-bI-CbV" id="CxI-O7-Tyc"/>
-                        <segue destination="xZJ-hw-lJa" kind="show" identifier="moveSegue" action="showDetailViewController:sender:" id="5Ub-PT-umg"/>
+                        <segue destination="xZJ-hw-lJa" kind="push" identifier="moveSegue" id="5Ub-PT-umg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -82,6 +82,7 @@
                             <constraint firstItem="jjx-T4-Kyl" firstAttribute="top" secondItem="nXb-zC-psb" secondAttribute="bottom" constant="41" id="d9E-lT-5Gh"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="FRa-T3-zak"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZoH-eW-cAj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -90,7 +91,8 @@
         <!--Navigation Controller-->
         <scene sceneID="nHc-DH-k3K">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="BDb-In-7vh" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PsA-Jv-RGN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BDb-In-7vh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8Hb-8D-rHl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -105,7 +107,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="b78-9a-O44"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PsA-Jv-RGN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1721" y="46"/>
         </scene>
